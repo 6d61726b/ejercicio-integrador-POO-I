@@ -1,6 +1,8 @@
 #ifndef PERSONA
 #define PERSONA
 
+#include <string>
+
 class Persona
 {
 	string DNI;
