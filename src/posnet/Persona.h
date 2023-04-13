@@ -5,16 +5,18 @@
 
 class Persona
 {
-	string DNI;
-	string nombre;
-	string apellido;
-	string telefono;
-	string mail;
+	std::string DNI;
+	std::string nombre;
+	std::string apellido;
+	std::string telefono;
+	std::string mail;
 
 public:
-	Persona(string DNI, string nombre, string apellido, string telefono, string mail);
+	Persona();
+	Persona(std::string DNI, std::string nombre, std::string apellido, std::string telefono, std::string mail);
+	Persona(const Persona& persona);
 	~Persona();
-	string nombreCompleto();
+	std::string nombreCompleto();
 };
 
 #endif
