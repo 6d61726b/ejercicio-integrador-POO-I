@@ -1,5 +1,5 @@
-#ifndef TARJETA_DE_CREDITO
-#define TARJETA_DE_CREDITO
+#ifndef TARJETA_DE_CREDITO_H
+#define TARJETA_DE_CREDITO_H
 
 #include <iostream>
 #include <string>
